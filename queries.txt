@@ -1,0 +1,75 @@
+Query 1
+
+CREATE VIEW multiple_visitors AS SELECT * FROM web WHERE nuser IN (SELECT nuser FROM web GROUP BY nuser HAVING COUNT(*) > 1);
+
+CREATE VIEW visit_gaps AS SELECT strftime('%s',max(time))-strftime('%s',min(time)) AS gaps FROM multiple_visitors GROUP BY nuser;
+
+SELECT AVG(gaps) FROM visit_gaps;
+
+Query 2
+
+CREATE VIEW consecutive_durations AS SELECT [current].time cur_time,[current].nuser cur_user,[next].nuser next_user,strftime('%s',[next].time)-strftime('%s',[current].time) delta FROM multiple_visitors AS [current] LEFT JOIN multiple_visitors AS [next] ON [next].nuser = [current].nuser AND [next].time > [current].time;
+
+CREATE VIEW consecutive_durations2 AS SELECT cur_user,next_user,MIN(delta) mdelta FROM consecutive_durations WHERE delta != 0 GROUP BY cur_time,cur_user;
+
+SELECT AVG(mdelta) FROM consecutive_durations2;
+
+Query 3
+
+CREATE VIEW visit_counts AS SELECT count(time) AS nvisits,nuser FROM web GROUP BY nuser;
+
+SELECT AVG(nvisits) FROM visit_counts;
+
+Query 4
+
+CREATE VIEW multi_visit_counts AS SELECT count(time) AS nvisits,nuser FROM multiple_visitors GROUP BY nuser;
+SELECT AVG(nvisits) FROM multi_visit_counts;
+
+Query 5
+
+CREATE VIEW category_counts AS SELECT count(ncategory) AS ncats,nuser FROM web GROUP BY nuser,ncategory;
+
+CREATE VIEW category_counts2 AS SELECT count(ncats) ncats2,nuser FROM category_counts GROUP BY nuser;
+
+SELECT AVG(ncats2) FROM category_counts2;
+
+Query 6 
+CREATE VIEW multi_visit_category_counts AS SELECT count(ncategory) AS ncats,nuser FROM multiple_visitors GROUP BY nuser,ncategory;
+
+CREATE VIEW multi_visit_category_counts2 AS SELECT count(ncats) ncats2,nuser FROM multi_visit_category_counts GROUP BY nuser;
+SELECT AVG(ncats2) FROM multi_visit_category_counts2;
+
+Query 7:
+
+CREATE VIEW multi_cat_visitors AS SELECT * FROM web WHERE nuser IN (SELECT nuser FROM web GROUP BY nuser HAVING COUNT(DISTINCT ncategory) > 1);
+
+CREATE VIEW multi_cat_visitor_counts AS SELECT count(ncategory) AS ncats,nuser FROM multi_cat_visitors GROUP BY nuser,ncategory;
+
+CREATE VIEW multi_cat_visitor_counts2 AS SELECT count(ncats) ncats2,nuser FROM multi_cat_visitor_counts GROUP BY nuser;
+
+SELECT AVG(ncats2) FROM multi_cat_visitor_counts2;
+
+Query 8: 
+
+CREATE VIEW consecutive_cats AS SELECT [current].time initial_time,[current].nuser initial_user,[current].ncategory initial_cat,[next].ncategory final_cat,[next].ncategory-[current].ncategory delta_cat,strftime('%s',[next].time)-strftime('%s',[current].time) delta FROM multiple_visitors AS [current] JOIN multiple_visitors AS [next] ON [next].nuser = [current].nuser AND [next].time > [current].time;
+
+CREATE VIEW consecutive_cats2 AS SELECT initial_time,initial_user,initial_cat,final_cat,MIN(delta) delta, delta_cat FROM consecutive_cats GROUP BY initial_time,initial_user;
+
+
+SELECT count(*) FROM consecutive_cats2;
+
+SELECT count(*) FROM consecutive_cats2 WHERE delta_cat=0;
+
+
+Query 9: 
+
+CREATE VIEW consecutive_cats AS SELECT [current].time initial_time,[current].nuser initial_user,[current].ncategory initial_cat,[next].ncategory final_cat,[next].ncategory-[current].ncategory delta_cat,strftime('%s',[next].time)-strftime('%s',[current].time) delta FROM multiple_visitors AS [current] JOIN multiple_visitors AS [next] ON [next].nuser = [current].nuser AND [next].time > [current].time;
+
+CREATE VIEW consecutive_cats2 AS SELECT initial_time,initial_user,initial_cat,final_cat,MIN(delta) delta, delta_cat FROM consecutive_cats GROUP BY initial_time,initial_user;
+
+CREATE VIEW query9 AS SELECT initial_cat,final_cat,COUNT(*) trans_cnt FROM consecutive_cats2 GROUP BY initial_cat,final_cat;
+SELECT initial_cat,SUM(trans_cnt) FROM query9 GROUP BY initial_cat;
+
+CREATE VIEW query9_b AS SELECT initial_cat,SUM(trans_cnt) trans_cnt_b FROM query9 GROUP BY initial_cat;
+
+SELECT query9.initial_cat,query9.final_cat,MAX(trans_cnt*1./trans_cnt_b) FROM query9 JOIN query9_b ON query9.initial_cat = query9_b.initial_cat GROUP BY query9.initial_cat;
