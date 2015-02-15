@@ -57,7 +57,6 @@ h_id_rank_python = TH1D('h_id_rank_python','h_id_rank_python',100,array('d',xAxi
 #print cpp_list
 #print java_list
 
-'''
 FillHisto(cpp_list,h_id_rank_cpp)
 FillHisto(java_list,h_id_rank_java)
 FillHisto(python_list,h_id_rank_python)
@@ -86,8 +85,6 @@ leg.AddEntry(h_id_rank_python,'Python','l')
 leg.Draw('same')
 
 c.SaveAs('test.png')
-'''
-
 
 corre_matrix = TH2D('corre_matrix','corre_matrix',3,0,3,3,0,3)
 
