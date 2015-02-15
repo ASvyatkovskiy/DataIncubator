@@ -1,0 +1,760 @@
+
+graph nodes 146874, edges 333606
+
+# of connected component sizes 8
+size 1, number of components 5191
+size 2, number of components 4462
+size 3, number of components 406
+size 4, number of components 68
+size 5, number of components 11
+size 6, number of components 2
+size 7, number of components 2
+size 131188, number of components 1
+
+max wcc nodes 131188, edges 322486
+
+# of different in-degrees 298
+in-degree 0, number of nodes 83443
+in-degree 1, number of nodes 38306
+in-degree 2, number of nodes 8676
+in-degree 3, number of nodes 4013
+in-degree 4, number of nodes 2405
+in-degree 5, number of nodes 1572
+in-degree 6, number of nodes 1178
+in-degree 7, number of nodes 909
+in-degree 8, number of nodes 701
+in-degree 9, number of nodes 539
+in-degree 10, number of nodes 441
+in-degree 11, number of nodes 410
+in-degree 12, number of nodes 349
+in-degree 13, number of nodes 294
+in-degree 14, number of nodes 248
+in-degree 15, number of nodes 211
+in-degree 16, number of nodes 198
+in-degree 17, number of nodes 167
+in-degree 18, number of nodes 161
+in-degree 19, number of nodes 130
+in-degree 20, number of nodes 153
+in-degree 21, number of nodes 122
+in-degree 22, number of nodes 120
+in-degree 23, number of nodes 99
+in-degree 24, number of nodes 85
+in-degree 25, number of nodes 77
+in-degree 26, number of nodes 76
+in-degree 27, number of nodes 80
+in-degree 28, number of nodes 57
+in-degree 29, number of nodes 65
+in-degree 30, number of nodes 73
+in-degree 31, number of nodes 52
+in-degree 32, number of nodes 48
+in-degree 33, number of nodes 52
+in-degree 34, number of nodes 40
+in-degree 35, number of nodes 51
+in-degree 36, number of nodes 47
+in-degree 37, number of nodes 42
+in-degree 38, number of nodes 46
+in-degree 39, number of nodes 44
+in-degree 40, number of nodes 35
+in-degree 41, number of nodes 33
+in-degree 42, number of nodes 27
+in-degree 43, number of nodes 28
+in-degree 44, number of nodes 19
+in-degree 45, number of nodes 21
+in-degree 46, number of nodes 27
+in-degree 47, number of nodes 24
+in-degree 48, number of nodes 29
+in-degree 49, number of nodes 18
+in-degree 50, number of nodes 20
+in-degree 51, number of nodes 18
+in-degree 52, number of nodes 14
+in-degree 53, number of nodes 21
+in-degree 54, number of nodes 12
+in-degree 55, number of nodes 9
+in-degree 56, number of nodes 15
+in-degree 57, number of nodes 19
+in-degree 58, number of nodes 20
+in-degree 59, number of nodes 15
+in-degree 60, number of nodes 15
+in-degree 61, number of nodes 12
+in-degree 62, number of nodes 6
+in-degree 63, number of nodes 10
+in-degree 64, number of nodes 10
+in-degree 65, number of nodes 11
+in-degree 66, number of nodes 8
+in-degree 67, number of nodes 11
+in-degree 68, number of nodes 15
+in-degree 69, number of nodes 12
+in-degree 70, number of nodes 17
+in-degree 71, number of nodes 7
+in-degree 72, number of nodes 17
+in-degree 73, number of nodes 6
+in-degree 74, number of nodes 9
+in-degree 75, number of nodes 8
+in-degree 76, number of nodes 15
+in-degree 77, number of nodes 4
+in-degree 78, number of nodes 7
+in-degree 79, number of nodes 4
+in-degree 80, number of nodes 10
+in-degree 81, number of nodes 7
+in-degree 82, number of nodes 5
+in-degree 83, number of nodes 7
+in-degree 84, number of nodes 8
+in-degree 85, number of nodes 4
+in-degree 86, number of nodes 9
+in-degree 87, number of nodes 8
+in-degree 88, number of nodes 6
+in-degree 89, number of nodes 5
+in-degree 90, number of nodes 10
+in-degree 91, number of nodes 6
+in-degree 92, number of nodes 7
+in-degree 93, number of nodes 3
+in-degree 94, number of nodes 4
+in-degree 95, number of nodes 7
+in-degree 96, number of nodes 3
+in-degree 97, number of nodes 9
+in-degree 98, number of nodes 5
+in-degree 99, number of nodes 5
+in-degree 100, number of nodes 5
+in-degree 101, number of nodes 5
+in-degree 102, number of nodes 2
+in-degree 103, number of nodes 2
+in-degree 104, number of nodes 5
+in-degree 105, number of nodes 4
+in-degree 106, number of nodes 3
+in-degree 107, number of nodes 1
+in-degree 108, number of nodes 5
+in-degree 109, number of nodes 3
+in-degree 110, number of nodes 4
+in-degree 111, number of nodes 6
+in-degree 112, number of nodes 3
+in-degree 113, number of nodes 3
+in-degree 115, number of nodes 3
+in-degree 116, number of nodes 6
+in-degree 117, number of nodes 1
+in-degree 118, number of nodes 3
+in-degree 119, number of nodes 6
+in-degree 120, number of nodes 4
+in-degree 122, number of nodes 2
+in-degree 123, number of nodes 2
+in-degree 124, number of nodes 4
+in-degree 125, number of nodes 1
+in-degree 126, number of nodes 6
+in-degree 127, number of nodes 5
+in-degree 128, number of nodes 3
+in-degree 129, number of nodes 1
+in-degree 130, number of nodes 3
+in-degree 131, number of nodes 3
+in-degree 132, number of nodes 2
+in-degree 133, number of nodes 3
+in-degree 134, number of nodes 1
+in-degree 135, number of nodes 4
+in-degree 136, number of nodes 1
+in-degree 138, number of nodes 1
+in-degree 139, number of nodes 3
+in-degree 140, number of nodes 3
+in-degree 141, number of nodes 1
+in-degree 143, number of nodes 4
+in-degree 147, number of nodes 2
+in-degree 148, number of nodes 3
+in-degree 151, number of nodes 2
+in-degree 152, number of nodes 1
+in-degree 153, number of nodes 2
+in-degree 154, number of nodes 5
+in-degree 157, number of nodes 2
+in-degree 158, number of nodes 2
+in-degree 160, number of nodes 3
+in-degree 161, number of nodes 2
+in-degree 162, number of nodes 1
+in-degree 163, number of nodes 1
+in-degree 164, number of nodes 1
+in-degree 166, number of nodes 3
+in-degree 167, number of nodes 1
+in-degree 169, number of nodes 1
+in-degree 170, number of nodes 4
+in-degree 172, number of nodes 1
+in-degree 173, number of nodes 4
+in-degree 174, number of nodes 2
+in-degree 175, number of nodes 1
+in-degree 176, number of nodes 1
+in-degree 177, number of nodes 1
+in-degree 178, number of nodes 3
+in-degree 179, number of nodes 1
+in-degree 180, number of nodes 3
+in-degree 181, number of nodes 2
+in-degree 182, number of nodes 1
+in-degree 183, number of nodes 1
+in-degree 187, number of nodes 1
+in-degree 188, number of nodes 1
+in-degree 189, number of nodes 1
+in-degree 190, number of nodes 2
+in-degree 192, number of nodes 1
+in-degree 193, number of nodes 4
+in-degree 194, number of nodes 1
+in-degree 197, number of nodes 1
+in-degree 198, number of nodes 1
+in-degree 199, number of nodes 4
+in-degree 200, number of nodes 1
+in-degree 202, number of nodes 1
+in-degree 203, number of nodes 1
+in-degree 208, number of nodes 1
+in-degree 209, number of nodes 1
+in-degree 212, number of nodes 1
+in-degree 215, number of nodes 1
+in-degree 216, number of nodes 2
+in-degree 217, number of nodes 2
+in-degree 223, number of nodes 2
+in-degree 224, number of nodes 1
+in-degree 225, number of nodes 1
+in-degree 226, number of nodes 1
+in-degree 230, number of nodes 1
+in-degree 231, number of nodes 1
+in-degree 233, number of nodes 2
+in-degree 237, number of nodes 1
+in-degree 239, number of nodes 1
+in-degree 241, number of nodes 3
+in-degree 242, number of nodes 1
+in-degree 244, number of nodes 1
+in-degree 252, number of nodes 2
+in-degree 254, number of nodes 2
+in-degree 258, number of nodes 3
+in-degree 259, number of nodes 1
+in-degree 260, number of nodes 1
+in-degree 261, number of nodes 1
+in-degree 266, number of nodes 1
+in-degree 267, number of nodes 1
+in-degree 268, number of nodes 1
+in-degree 269, number of nodes 1
+in-degree 270, number of nodes 1
+in-degree 272, number of nodes 1
+in-degree 274, number of nodes 1
+in-degree 282, number of nodes 2
+in-degree 283, number of nodes 1
+in-degree 287, number of nodes 1
+in-degree 288, number of nodes 2
+in-degree 289, number of nodes 1
+in-degree 291, number of nodes 2
+in-degree 300, number of nodes 1
+in-degree 302, number of nodes 2
+in-degree 303, number of nodes 1
+in-degree 305, number of nodes 1
+in-degree 306, number of nodes 1
+in-degree 309, number of nodes 1
+in-degree 321, number of nodes 1
+in-degree 327, number of nodes 1
+in-degree 329, number of nodes 1
+in-degree 331, number of nodes 1
+in-degree 333, number of nodes 1
+in-degree 338, number of nodes 1
+in-degree 339, number of nodes 1
+in-degree 342, number of nodes 1
+in-degree 346, number of nodes 1
+in-degree 347, number of nodes 1
+in-degree 349, number of nodes 2
+in-degree 350, number of nodes 1
+in-degree 359, number of nodes 1
+in-degree 370, number of nodes 1
+in-degree 381, number of nodes 1
+in-degree 385, number of nodes 2
+in-degree 390, number of nodes 1
+in-degree 413, number of nodes 2
+in-degree 415, number of nodes 1
+in-degree 417, number of nodes 1
+in-degree 420, number of nodes 1
+in-degree 432, number of nodes 1
+in-degree 435, number of nodes 1
+in-degree 437, number of nodes 1
+in-degree 438, number of nodes 1
+in-degree 441, number of nodes 2
+in-degree 481, number of nodes 1
+in-degree 491, number of nodes 1
+in-degree 497, number of nodes 1
+in-degree 503, number of nodes 1
+in-degree 508, number of nodes 1
+in-degree 549, number of nodes 1
+in-degree 567, number of nodes 1
+in-degree 589, number of nodes 1
+in-degree 592, number of nodes 1
+in-degree 599, number of nodes 1
+in-degree 627, number of nodes 1
+in-degree 631, number of nodes 1
+in-degree 642, number of nodes 1
+in-degree 647, number of nodes 1
+in-degree 680, number of nodes 1
+in-degree 686, number of nodes 1
+in-degree 701, number of nodes 1
+in-degree 702, number of nodes 1
+in-degree 715, number of nodes 1
+in-degree 753, number of nodes 1
+in-degree 767, number of nodes 1
+in-degree 781, number of nodes 1
+in-degree 811, number of nodes 1
+in-degree 816, number of nodes 1
+in-degree 847, number of nodes 1
+in-degree 850, number of nodes 1
+in-degree 860, number of nodes 1
+in-degree 881, number of nodes 1
+in-degree 919, number of nodes 1
+in-degree 924, number of nodes 1
+in-degree 930, number of nodes 1
+in-degree 937, number of nodes 1
+in-degree 941, number of nodes 1
+in-degree 1179, number of nodes 1
+in-degree 1194, number of nodes 1
+in-degree 1216, number of nodes 1
+in-degree 1233, number of nodes 1
+in-degree 1266, number of nodes 1
+in-degree 1379, number of nodes 1
+in-degree 1513, number of nodes 1
+in-degree 1722, number of nodes 1
+in-degree 1940, number of nodes 1
+in-degree 2340, number of nodes 1
+in-degree 2448, number of nodes 1
+in-degree 2714, number of nodes 1
+in-degree 2828, number of nodes 1
+in-degree 3999, number of nodes 1
+
+# of different out-degrees 138
+out-degree 0, number of nodes 30963
+out-degree 1, number of nodes 65473
+out-degree 2, number of nodes 19884
+out-degree 3, number of nodes 9451
+out-degree 4, number of nodes 5451
+out-degree 5, number of nodes 3602
+out-degree 6, number of nodes 2370
+out-degree 7, number of nodes 1788
+out-degree 8, number of nodes 1337
+out-degree 9, number of nodes 992
+out-degree 10, number of nodes 803
+out-degree 11, number of nodes 613
+out-degree 12, number of nodes 501
+out-degree 13, number of nodes 411
+out-degree 14, number of nodes 389
+out-degree 15, number of nodes 272
+out-degree 16, number of nodes 267
+out-degree 17, number of nodes 214
+out-degree 18, number of nodes 188
+out-degree 19, number of nodes 177
+out-degree 20, number of nodes 149
+out-degree 21, number of nodes 131
+out-degree 22, number of nodes 113
+out-degree 23, number of nodes 111
+out-degree 24, number of nodes 83
+out-degree 25, number of nodes 78
+out-degree 26, number of nodes 78
+out-degree 27, number of nodes 79
+out-degree 28, number of nodes 65
+out-degree 29, number of nodes 52
+out-degree 30, number of nodes 50
+out-degree 31, number of nodes 41
+out-degree 32, number of nodes 46
+out-degree 33, number of nodes 35
+out-degree 34, number of nodes 30
+out-degree 35, number of nodes 31
+out-degree 36, number of nodes 32
+out-degree 37, number of nodes 26
+out-degree 38, number of nodes 32
+out-degree 39, number of nodes 18
+out-degree 40, number of nodes 25
+out-degree 41, number of nodes 14
+out-degree 42, number of nodes 18
+out-degree 43, number of nodes 27
+out-degree 44, number of nodes 16
+out-degree 45, number of nodes 19
+out-degree 46, number of nodes 15
+out-degree 47, number of nodes 8
+out-degree 48, number of nodes 13
+out-degree 49, number of nodes 13
+out-degree 50, number of nodes 10
+out-degree 51, number of nodes 12
+out-degree 52, number of nodes 9
+out-degree 53, number of nodes 12
+out-degree 54, number of nodes 8
+out-degree 55, number of nodes 8
+out-degree 56, number of nodes 10
+out-degree 57, number of nodes 7
+out-degree 58, number of nodes 8
+out-degree 59, number of nodes 5
+out-degree 60, number of nodes 13
+out-degree 61, number of nodes 6
+out-degree 62, number of nodes 6
+out-degree 63, number of nodes 8
+out-degree 64, number of nodes 3
+out-degree 65, number of nodes 8
+out-degree 66, number of nodes 4
+out-degree 67, number of nodes 4
+out-degree 68, number of nodes 5
+out-degree 69, number of nodes 4
+out-degree 70, number of nodes 4
+out-degree 71, number of nodes 8
+out-degree 72, number of nodes 4
+out-degree 73, number of nodes 1
+out-degree 74, number of nodes 5
+out-degree 75, number of nodes 1
+out-degree 76, number of nodes 5
+out-degree 77, number of nodes 1
+out-degree 78, number of nodes 5
+out-degree 79, number of nodes 1
+out-degree 80, number of nodes 6
+out-degree 81, number of nodes 4
+out-degree 82, number of nodes 1
+out-degree 83, number of nodes 2
+out-degree 84, number of nodes 2
+out-degree 85, number of nodes 5
+out-degree 86, number of nodes 6
+out-degree 87, number of nodes 3
+out-degree 88, number of nodes 2
+out-degree 89, number of nodes 1
+out-degree 90, number of nodes 5
+out-degree 91, number of nodes 2
+out-degree 92, number of nodes 2
+out-degree 93, number of nodes 3
+out-degree 96, number of nodes 2
+out-degree 98, number of nodes 1
+out-degree 99, number of nodes 1
+out-degree 101, number of nodes 1
+out-degree 103, number of nodes 2
+out-degree 105, number of nodes 1
+out-degree 106, number of nodes 1
+out-degree 107, number of nodes 2
+out-degree 108, number of nodes 1
+out-degree 109, number of nodes 1
+out-degree 112, number of nodes 1
+out-degree 113, number of nodes 1
+out-degree 114, number of nodes 2
+out-degree 115, number of nodes 1
+out-degree 116, number of nodes 1
+out-degree 117, number of nodes 1
+out-degree 122, number of nodes 1
+out-degree 123, number of nodes 1
+out-degree 125, number of nodes 1
+out-degree 126, number of nodes 2
+out-degree 131, number of nodes 1
+out-degree 132, number of nodes 1
+out-degree 136, number of nodes 1
+out-degree 138, number of nodes 1
+out-degree 140, number of nodes 1
+out-degree 142, number of nodes 1
+out-degree 143, number of nodes 1
+out-degree 144, number of nodes 1
+out-degree 146, number of nodes 2
+out-degree 152, number of nodes 1
+out-degree 154, number of nodes 1
+out-degree 155, number of nodes 1
+out-degree 159, number of nodes 1
+out-degree 162, number of nodes 1
+out-degree 164, number of nodes 1
+out-degree 165, number of nodes 1
+out-degree 171, number of nodes 1
+out-degree 176, number of nodes 1
+out-degree 180, number of nodes 2
+out-degree 182, number of nodes 1
+out-degree 193, number of nodes 1
+out-degree 204, number of nodes 1
+out-degree 374, number of nodes 1
+out-degree 434, number of nodes 1
+
+top 100 experts by PageRank
+id  992484, pagerank 0.013981
+id  135152, pagerank 0.010006
+id   22656, pagerank 0.007104
+id  139985, pagerank 0.005521
+id  157882, pagerank 0.004597
+id   57695, pagerank 0.003737
+id  571407, pagerank 0.003572
+id   70604, pagerank 0.003502
+id  218978, pagerank 0.002918
+id  103154, pagerank 0.002459
+id  573032, pagerank 0.002305
+id   18122, pagerank 0.002226
+id 1189885, pagerank 0.002191
+id  230513, pagerank 0.002170
+id  203907, pagerank 0.002110
+id  418556, pagerank 0.002096
+id  501557, pagerank 0.002025
+id  438154, pagerank 0.001903
+id   21234, pagerank 0.001845
+id  131872, pagerank 0.001781
+id  416206, pagerank 0.001777
+id  207421, pagerank 0.001750
+id  383861, pagerank 0.001746
+id  522444, pagerank 0.001719
+id  137369, pagerank 0.001698
+id    4725, pagerank 0.001691
+id 2126854, pagerank 0.001678
+id  829571, pagerank 0.001591
+id  869736, pagerank 0.001589
+id  217862, pagerank 0.001577
+id 1103872, pagerank 0.001556
+id   42344, pagerank 0.001529
+id  651536, pagerank 0.001510
+id  302139, pagerank 0.001421
+id   37213, pagerank 0.001414
+id 1679863, pagerank 0.001414
+id  605744, pagerank 0.001403
+id   16883, pagerank 0.001401
+id  228171, pagerank 0.001400
+id   34088, pagerank 0.001391
+id  203657, pagerank 0.001365
+id  294317, pagerank 0.001337
+id 1831293, pagerank 0.001288
+id 1426891, pagerank 0.001271
+id  600500, pagerank 0.001259
+id  684133, pagerank 0.001176
+id  871026, pagerank 0.001172
+id    3474, pagerank 0.001156
+id  367273, pagerank 0.001137
+id  376340, pagerank 0.001047
+id     304, pagerank 0.001021
+id  115145, pagerank 0.001016
+id  179850, pagerank 0.000993
+id  276052, pagerank 0.000992
+id   11296, pagerank 0.000986
+id   18393, pagerank 0.000960
+id  535871, pagerank 0.000943
+id   59501, pagerank 0.000941
+id  335858, pagerank 0.000936
+id 1343161, pagerank 0.000926
+id 1468366, pagerank 0.000925
+id 2898867, pagerank 0.000915
+id  256196, pagerank 0.000911
+id   12960, pagerank 0.000899
+id  365237, pagerank 0.000891
+id  714968, pagerank 0.000881
+id  478399, pagerank 0.000855
+id  342852, pagerank 0.000852
+id   40342, pagerank 0.000813
+id 1707091, pagerank 0.000799
+id  260990, pagerank 0.000794
+id 1279787, pagerank 0.000793
+id 2711488, pagerank 0.000785
+id  865403, pagerank 0.000779
+id  839646, pagerank 0.000775
+id   50476, pagerank 0.000765
+id   38896, pagerank 0.000750
+id  552759, pagerank 0.000738
+id   13792, pagerank 0.000731
+id  105224, pagerank 0.000727
+id  183406, pagerank 0.000696
+id  438992, pagerank 0.000696
+id 1743220, pagerank 0.000681
+id 1196603, pagerank 0.000680
+id  131368, pagerank 0.000676
+id  683735, pagerank 0.000671
+id   44476, pagerank 0.000668
+id   68587, pagerank 0.000666
+id    6309, pagerank 0.000661
+id  928711, pagerank 0.000654
+id  139595, pagerank 0.000652
+id   53897, pagerank 0.000651
+id  509477, pagerank 0.000637
+id  592139, pagerank 0.000637
+id    3916, pagerank 0.000629
+id  713646, pagerank 0.000615
+id  680925, pagerank 0.000587
+id 2587435, pagerank 0.000579
+id    4249, pagerank 0.000573
+id   20670, pagerank 0.000571
+
+top 100 experts by Hits
+id   22656, authority rank 0.604724
+id  157882, authority rank 0.298699
+id  571407, authority rank 0.283907
+id   57695, authority rank 0.269305
+id  139985, authority rank 0.249401
+id  203907, authority rank 0.183517
+id  522444, authority rank 0.102917
+id  131872, authority rank 0.099855
+id  230513, authority rank 0.099155
+id  276052, authority rank 0.098242
+id   21234, authority rank 0.096167
+id  605744, authority rank 0.094320
+id  207421, authority rank 0.088721
+id  992484, authority rank 0.087745
+id  103154, authority rank 0.084201
+id   37213, authority rank 0.082556
+id  260990, authority rank 0.082045
+id   70604, authority rank 0.080436
+id  829571, authority rank 0.080248
+id  418556, authority rank 0.076636
+id   40342, authority rank 0.073961
+id  342852, authority rank 0.070690
+id  438154, authority rank 0.070344
+id   16883, authority rank 0.065114
+id   12960, authority rank 0.063923
+id  871026, authority rank 0.062263
+id  256196, authority rank 0.062112
+id  478399, authority rank 0.061213
+id  714968, authority rank 0.058737
+id 1103872, authority rank 0.058435
+id  335858, authority rank 0.057670
+id  367273, authority rank 0.057218
+id 1679863, authority rank 0.056390
+id  105224, authority rank 0.053707
+id  869736, authority rank 0.051703
+id  535871, authority rank 0.050291
+id  179850, authority rank 0.048885
+id  383861, authority rank 0.048777
+id  438992, authority rank 0.045548
+id   34088, authority rank 0.045417
+id   14955, authority rank 0.045415
+id 1831293, authority rank 0.043067
+id  680925, authority rank 0.042701
+id    4249, authority rank 0.042526
+id  637853, authority rank 0.040909
+id  265143, authority rank 0.040535
+id    4725, authority rank 0.038933
+id   53897, authority rank 0.038672
+id    3474, authority rank 0.038271
+id  157247, authority rank 0.036640
+id 1707091, authority rank 0.036614
+id  276101, authority rank 0.036557
+id     304, authority rank 0.035214
+id    3916, authority rank 0.034081
+id  552759, authority rank 0.033426
+id  928711, authority rank 0.033277
+id  280244, authority rank 0.033234
+id  839646, authority rank 0.032869
+id  135589, authority rank 0.032528
+id  228171, authority rank 0.032149
+id    7412, authority rank 0.031117
+id  139010, authority rank 0.030813
+id   45664, authority rank 0.029010
+id    6309, authority rank 0.028859
+id   34397, authority rank 0.028702
+id 1393766, authority rank 0.027944
+id 1093528, authority rank 0.027855
+id 1094597, authority rank 0.027264
+id  659804, authority rank 0.026864
+id   61974, authority rank 0.026789
+id  251173, authority rank 0.026434
+id  331052, authority rank 0.025962
+id  127320, authority rank 0.025464
+id  984823, authority rank 0.025089
+id  600500, authority rank 0.024870
+id  305644, authority rank 0.024589
+id   18393, authority rank 0.024508
+id  464988, authority rank 0.024255
+id  592139, authority rank 0.024030
+id  330057, authority rank 0.024019
+id   13792, authority rank 0.023668
+id 1065197, authority rank 0.023335
+id   20654, authority rank 0.022774
+id  183406, authority rank 0.022651
+id  115145, authority rank 0.022651
+id   42769, authority rank 0.022613
+id  192444, authority rank 0.022539
+id  129570, authority rank 0.022439
+id  302916, authority rank 0.022298
+id  301607, authority rank 0.022173
+id  203657, authority rank 0.022150
+id  201359, authority rank 0.021845
+id  241590, authority rank 0.021820
+id   18157, authority rank 0.021799
+id  248432, authority rank 0.021355
+id 1343161, authority rank 0.021275
+id   77779, authority rank 0.021093
+id  155137, authority rank 0.021030
+id  808486, authority rank 0.020742
+id  572670, authority rank 0.020638
+
+top 100 learners by Hits
+id  892029, hub rank 0.073364
+id 1194415, hub rank 0.059551
+id  359862, hub rank 0.056876
+id  648138, hub rank 0.055593
+id  470184, hub rank 0.053179
+id  384706, hub rank 0.052113
+id  802050, hub rank 0.050122
+id   44330, hub rank 0.048781
+id  130758, hub rank 0.048099
+id  454049, hub rank 0.048083
+id  225899, hub rank 0.047084
+id  710818, hub rank 0.045560
+id  576758, hub rank 0.045193
+id  431769, hub rank 0.044938
+id 1527084, hub rank 0.044427
+id   85821, hub rank 0.043414
+id  682662, hub rank 0.043053
+id  187141, hub rank 0.043016
+id  273657, hub rank 0.042855
+id  364914, hub rank 0.042651
+id   39677, hub rank 0.042250
+id 1094640, hub rank 0.042019
+id   72437, hub rank 0.041974
+id  106261, hub rank 0.041565
+id  520957, hub rank 0.040636
+id 2017866, hub rank 0.040632
+id  100516, hub rank 0.039975
+id 1379286, hub rank 0.038920
+id  159793, hub rank 0.038630
+id  230717, hub rank 0.038165
+id  496949, hub rank 0.038070
+id  734984, hub rank 0.037669
+id  643742, hub rank 0.036912
+id   11236, hub rank 0.036769
+id  784597, hub rank 0.036197
+id  241717, hub rank 0.036030
+id  530153, hub rank 0.035980
+id 1171620, hub rank 0.035962
+id  597657, hub rank 0.035948
+id  668970, hub rank 0.035639
+id  213269, hub rank 0.035108
+id 1192728, hub rank 0.035083
+id 1894684, hub rank 0.035078
+id 1391249, hub rank 0.034994
+id   82609, hub rank 0.034904
+id   16050, hub rank 0.034805
+id  471607, hub rank 0.034709
+id  157027, hub rank 0.034528
+id  402610, hub rank 0.034368
+id  164299, hub rank 0.034215
+id  454671, hub rank 0.033817
+id  663148, hub rank 0.033775
+id  745835, hub rank 0.033594
+id 1089623, hub rank 0.033517
+id   30453, hub rank 0.033494
+id  285594, hub rank 0.033478
+id  282383, hub rank 0.033474
+id  605328, hub rank 0.033390
+id    2648, hub rank 0.033201
+id  819916, hub rank 0.033160
+id  779111, hub rank 0.032703
+id  190623, hub rank 0.032693
+id  428753, hub rank 0.032602
+id  543220, hub rank 0.032273
+id  429377, hub rank 0.032259
+id  277683, hub rank 0.032241
+id  614141, hub rank 0.032147
+id 2458372, hub rank 0.032037
+id  763029, hub rank 0.031956
+id  491790, hub rank 0.031660
+id 2606598, hub rank 0.031643
+id  471011, hub rank 0.031623
+id 1225328, hub rank 0.031608
+id  465179, hub rank 0.031508
+id  260511, hub rank 0.031446
+id  584862, hub rank 0.031430
+id  266103, hub rank 0.031418
+id  145574, hub rank 0.031389
+id    4903, hub rank 0.031318
+id  296108, hub rank 0.031315
+id  250030, hub rank 0.031279
+id  197606, hub rank 0.031108
+id  321862, hub rank 0.031019
+id 1480018, hub rank 0.030991
+id  117039, hub rank 0.030984
+id  108869, hub rank 0.030978
+id  272501, hub rank 0.030965
+id  453596, hub rank 0.030857
+id  387774, hub rank 0.030782
+id  548591, hub rank 0.030743
+id  397991, hub rank 0.030471
+id  581205, hub rank 0.030416
+id  632951, hub rank 0.030414
+id  290629, hub rank 0.030397
+id  245549, hub rank 0.030324
+id  921193, hub rank 0.030210
+id  340390, hub rank 0.030194
+id  238134, hub rank 0.030063
+id 1900445, hub rank 0.030007
+id  155137, hub rank 0.030005
